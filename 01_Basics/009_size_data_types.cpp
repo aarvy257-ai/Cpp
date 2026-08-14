@@ -7,5 +7,6 @@ int main(){
     cout << " Size of int: " << sizeof(inttype)<<"Bytes"<<endl;
     cout << " Size of float: " << sizeof(floattype)<<"Bytes"<<endl;
     cout << " Size of double: " << sizeof(doubletype)<<"Bytes"<<endl;
+    cout<< " Size of char "
     return 0;
 }
