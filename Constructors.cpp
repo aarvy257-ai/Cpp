@@ -1,22 +1,29 @@
 #include <iostream>
 using namespace std;
+
 class Student
 {
     public:
     string name;
-    int roll;
-    float gpa;
+    int age;
 
-    Student(string s, int r, float g)
+    Student()
     {
-        name = s ;
-        roll = r ;
-        gpa = g ;
+        name = "Aarvy";
+        age = 20;
+    }
+
+    void display()
+    {
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
     }
 };
+
 int main()
 {
-    Student s1("Aarvy", 6, 8);
-    cout << s1.name << s1.gpa << s1.roll;
+    Student s;
+    s.display();
+
     return 0;
 }
